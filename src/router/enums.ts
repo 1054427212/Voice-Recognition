@@ -1,0 +1,45 @@
+// 完整版菜单比较多，将 rank 抽离出来，在此方便维护
+
+const home = 0, // 平台规定只有 home 路由的 rank 才能为 0 ，所以后端在返回 rank 的时候需要从 1 开始哦
+  able = 1,
+  components = 2,
+  table = 3,
+  frame = 4,
+  nested = 5,
+  result = 6,
+  error = 7,
+  list = 8,
+  // permission = 9,
+  system = 10,
+  tabs = 11,
+  about = 12,
+  editor = 13,
+  flowchart = 14,
+  formdesign = 15,
+  board = 16,
+  ppt = 17,
+  guide = 18,
+  menuoverflow = 19;
+
+export {
+  home,
+  able,
+  components,
+  table,
+  frame,
+  nested,
+  result,
+  error,
+  list,
+  // permission,
+  system,
+  tabs,
+  about,
+  editor,
+  flowchart,
+  formdesign,
+  board,
+  ppt,
+  guide,
+  menuoverflow
+};
